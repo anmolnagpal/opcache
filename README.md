@@ -6,9 +6,11 @@ yum install php-pecl-zendopcache
 
 We can **rest OpCache** via following method's:
 
-**1.** Width validate_timestamps disabled, you must reset the OpCache manually or restart Apache for changes to the filesystem to take effect. 
-**2.** After each code deployment you can login to the Magento admin and goto the OpCache control panel and hit reset cache. 
-**3.** Use the command line reset by curling a page with something like this
+1. Width validate_timestamps disabled, you must reset the OpCache manually or restart Apache for changes to the filesystem to take effect.
+
+2. After each code deployment you can login to the Magento admin and goto the OpCache control panel and hit reset cache. 
+
+3. Use the command line reset by curling a page with something like this
 ```
 <?php
 require_once('app/Mage.php');
