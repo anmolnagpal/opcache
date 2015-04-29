@@ -1,3 +1,5 @@
+**NOTE:** 
+OpCache settings for Magento on PHP 5.5.14 (Production Environment). Store/Update this file as /etc/php.d/opcache.ini
 **Installation**
 ```
 yum install php-pecl-zendopcache
